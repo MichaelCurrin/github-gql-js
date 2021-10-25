@@ -1,0 +1,14 @@
+{
+  "name": "github-graphql-js",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Starter template for querying GH GQL API using Node",
+  "scripts": {
+    "process": "node src/main.js"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^4.8.0"
+  },
+  "author": "MichaelCurrin",
+  "license": "MIT"
+}
