@@ -17,7 +17,7 @@ $ make install
 
 ## Configuration
 
-Create dotfile:
+Create a dotfile:
 
 ```sh
 $ cp .env.template .env
