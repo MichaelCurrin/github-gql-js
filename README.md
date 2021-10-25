@@ -1,5 +1,5 @@
 # GitHub GraphQL JS
-> Starter template for querying GH GQL API using Node
+> Starter template for querying GitHub's GQL API using Node
 
 
 Built using:
@@ -47,6 +47,7 @@ Rather run your logic using **Node** on a server or in a serverless function (AW
 ## Related
 
 - https://github.com/MichaelCurrin/github-gql-go
+- https://github.com/MichaelCurrin/github-reporting-py
 
 
 ## License 
