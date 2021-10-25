@@ -44,6 +44,11 @@ Rather run your logic using **Node** on a server or in a serverless function (AW
 [Netlify Functions]: https://michaelcurrin.github.io/dev-resources/resources/ci-cd/netlify/functions.html
 
 
+## Related
+
+- https://github.com/MichaelCurrin/github-gql-go
+
+
 ## License 
 
 MIT
