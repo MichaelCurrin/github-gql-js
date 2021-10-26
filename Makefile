@@ -1,7 +1,8 @@
 export GH_TOKEN
 
+default: install
 
-all: install
+all: install run
 
 h help:
 	grep '^[a-z]' Makefile
