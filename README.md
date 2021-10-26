@@ -8,6 +8,13 @@
 [![Package - @octokit/graphql](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/github-gql-js/@octokit/graphql?color=blue)](https://www.npmjs.com/package/@octokit/graphql)
 
 
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/github-gql-js/generate)
+
+</div>
+
+
 ## About
 
 This repo demonstrates how to query GitHub's GraphQL API using Node.
@@ -16,12 +23,6 @@ The `graphql` NPM package is used. The content is based on the documentation her
 
 - [octokit/graphql.js](https://github.com/octokit/graphql.js)
     > GitHub GraphQL API client for browsers and Node
-
-<div align="center">
-
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/github-gql-js/generate)
-    
-</div>
 
 
 ## Installation
@@ -44,19 +45,14 @@ $ npm install
 
 ## Configuration
 
-Create a GitHub API token with appropriate permissions
-
-- https://github.com/settings/tokens
-
-Copy the token value. Keep this **secret** and out of version control.
-
-Create a dotfile based on the template. This config file will be ignored by Git.
-
-```sh
-$ cp .env.template .env
-```
-
-Paste your token in the file.
+1. Create a GitHub API token with appropriate permissions
+    - https://github.com/settings/tokens
+1. Copy the token value. Keep this **secret** and out of version control.
+1. Create a dotfile based on the template. This config file will be ignored by Git.
+    ```sh
+    $ cp .env.template .env
+    ```
+1. Paste your token in the file.
 
 
 ## Usage
@@ -66,7 +62,9 @@ $ make run
 ```
 
 
-## GitHub APIS and tokens
+## More info
+
+### GitHub APIS and tokens
 
 GitHub GQL queries require an  **API** token, unlike the REST API which does not.
 
@@ -76,8 +74,11 @@ Rather run your logic using **Node** on a server or in a serverless function (AW
 
 [Netlify Functions]: https://michaelcurrin.github.io/dev-resources/resources/ci-cd/netlify/functions.html
 
+### Resources
 
-## Related
+- [V4 GraphQL](https://michaelcurrin.github.io/dev-resources/resources/version-control/github/api/v4.html) in Dev Resources
+
+### Related
 
 - https://github.com/MichaelCurrin/github-gql-go
 - https://github.com/MichaelCurrin/github-reporting-py
