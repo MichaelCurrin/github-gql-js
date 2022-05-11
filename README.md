@@ -27,6 +27,8 @@ The `graphql` NPM package is used. The content is based on the documentation her
 
 ## Installation
 
+### Clone
+
 Clone this repo.
 
 ```sh
@@ -34,9 +36,11 @@ $ git clone git@github.com:MichaelCurrin/github-gql-js.git
 $ cd github-gql-js
 ```
 
-Install Node.js.
+### Install system packages
 
-Install NPM packages:
+Install Node.js - see [gist](https://gist.github.com/aa1fc56419a355972b96bce23f3bccba).
+
+### Install project packages
 
 ```sh
 $ npm install
@@ -64,7 +68,7 @@ $ make run
 
 ## More info
 
-### GitHub APIS and tokens
+### GitHub APIs and tokens
 
 GitHub GQL queries require an  **API** token, unlike the REST API which does not.
 
@@ -80,8 +84,8 @@ Rather run your logic using **Node** on a server or in a serverless function (AW
 
 ### Related
 
-- https://github.com/MichaelCurrin/github-gql-go
-- https://github.com/MichaelCurrin/github-reporting-py
+- https://github.com/MichaelCurrin/github-gql-go - built with Go.
+- https://github.com/MichaelCurrin/github-reporting-py - built with Python.
 
 
 ## License
