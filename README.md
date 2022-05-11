@@ -40,10 +40,12 @@ $ cd github-gql-js
 
 Install Node.js - see [gist](https://gist.github.com/aa1fc56419a355972b96bce23f3bccba).
 
+You also need `make` - standard on Linux and macOS. Otherwise run the commands directly in [Makefile](/Makefile).
+
 ### Install project packages
 
 ```sh
-$ npm install
+$ make install
 ```
 
 
